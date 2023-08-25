@@ -1,0 +1,16 @@
+/.idea
+/.vscode
+/.vs
+*.db
+*.db-shm
+*.db-wal
+*.pubxml
+obj
+bin
+appsettings.json
+/API/wwwroot
+/API/Files/Logs
+/API/Properties/PublishProfiles
+Exe
+install.bat
+uninstall.bat

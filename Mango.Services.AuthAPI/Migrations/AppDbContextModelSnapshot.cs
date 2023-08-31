@@ -95,7 +95,7 @@ namespace Mango.Services.AuthAPI.Migrations
                         {
                             Id = "d08f86fc-a412-4753-914c-f75ab58e5aec",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "14549151-6a9c-4829-b9ab-0f2704ba3094",
+                            ConcurrencyStamp = "01ec50a5-0279-41e3-95bc-05d01aa85b0e",
                             Email = "testadmin@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
@@ -105,7 +105,7 @@ namespace Mango.Services.AuthAPI.Migrations
                             PasswordHash = "AQAAAAIAAYagAAAAEMv/5ff3qJaYH+T03ukkrjq2Rkqwf78PkJD3LJWNWrZDmqkmwPHX6abzS8cdROw6qQ==",
                             PhoneNumber = "0554852149",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7351ee73-c9c4-4a36-a7be-1310b3235bf9",
+                            SecurityStamp = "bdc51d7c-e316-46d4-b08f-970fe1008f2e",
                             TwoFactorEnabled = false,
                             UserName = "testadmin@gmail.com"
                         },
@@ -113,7 +113,7 @@ namespace Mango.Services.AuthAPI.Migrations
                         {
                             Id = "89487ac5-28eb-4d3d-afe1-429fe32f5822",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3d109f00-5269-46a7-9a57-fa94e114911d",
+                            ConcurrencyStamp = "756bf3d9-d742-4298-88cb-16267b338144",
                             Email = "testcustomer@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
@@ -123,7 +123,7 @@ namespace Mango.Services.AuthAPI.Migrations
                             PasswordHash = "AQAAAAIAAYagAAAAEMv/5ff3qJaYH+T03ukkrjq2Rkqwf78PkJD3LJWNWrZDmqkmwPHX6abzS8cdROw6qQ==",
                             PhoneNumber = "0544852149",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "77056af6-cc05-4e95-bb71-869531fe7a76",
+                            SecurityStamp = "320616e3-1141-4c5e-96bc-483f3c11bff8",
                             TwoFactorEnabled = false,
                             UserName = "testcustomer@gmail.com"
                         });
@@ -290,12 +290,14 @@ namespace Mango.Services.AuthAPI.Migrations
                         new
                         {
                             Id = "d08f86fc-a412-4753-914c-f75ab58e5aea",
-                            Name = "ADMIN"
+                            Name = "ADMIN",
+                            NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "89487ac5-28eb-4d3d-afe1-429fe32f582c",
-                            Name = "CUSTOMER"
+                            Name = "CUSTOMER",
+                            NormalizedName = "CUSTOMER"
                         });
                 });
 
